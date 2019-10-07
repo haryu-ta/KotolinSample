@@ -1,4 +1,4 @@
-package `class`
+package `class`.`interface`
 
 interface GreetingInterface {
     fun greet()

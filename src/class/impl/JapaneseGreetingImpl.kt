@@ -1,6 +1,6 @@
 package `class`.impl
 
-import `class`.GreetingInterface
+import `class`.`interface`.GreetingInterface
 
 class JapaneseGreetingImpl : GreetingInterface{
 
