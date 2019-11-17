@@ -1,6 +1,7 @@
 import `class`.classes.BuscketClass
 import `class`.classes.lastChar
 import `class`.classes.wordsConunt
+import `class`.collection.collectionStudy
 import `class`.lambda.*
 
 fun main(args:Array<String>){
@@ -64,17 +65,17 @@ fun main(args:Array<String>){
 //    println(strSearchReturnIndex("Hi Yamaguchi!!",{ it.isWhitespace() }))
 //    println(strSearchReturnIndex("Draemon's eye"){it.isWhitespace()})
 //
-//    val arrList : List<String> = listOf("水星","金星","地球","火星","木星","土星","天王星","海王星","冥王星")
-//    listOfLoops(arrList){
-//            cnt : String , item : String ->
-//        "${cnt} : ${item}"
-//    }
+    val arrList : List<String> = listOf("水星","金星","地球","火星","木星","土星","天王星","海王星","冥王星")
+    listOfLoops(arrList){
+            cnt : String , item : String ->
+        "${cnt} : ${item}"
+    }
 //
 //    nonLocalRerutn(arrList)
 //    labelLocalRerutn(arrList)
 
 //    println("============= コレクション =============")
-//    collectionStudy()
+    collectionStudy()
 
 //    println("============= 再起呼出 =============")
 //    println(plusString(mutablehorseList))
@@ -114,8 +115,8 @@ fun main(args:Array<String>){
 //    println(obj())
 //
 //    println("============= 可変長変数 =============")
-//    val intList = intArrayOf(1,2,3,4,5,6,7,8,9,10)
-//    variableLengthfunc(*intList)
+    val intList = intArrayOf(1,2,3,4,5,6,7,8,9,10)
+    variableLengthfunc(*intList)
 //    variableLengthfunc(0,1,2)
 //
 //    println("============= ローカル関数 =============")

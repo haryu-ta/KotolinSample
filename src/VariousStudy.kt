@@ -1,3 +1,7 @@
+import `class`.UserClass
+import `class`.classes.MyClass
+import `class`.classes.User
+
 fun main(args: Array<String>) {
 
     println("============ オブジェクト宣言 ============")
@@ -10,6 +14,15 @@ fun main(args: Array<String>) {
     println("============ 列挙型 ============")
     println(COUNTRY.valueOf("AMERICA").country + ":" + COUNTRY.valueOf("AMERICA").name + ":" + COUNTRY.valueOf("AMERICA").capital)
     println(COUNTRY.AMERICA.message());
+
+    println("============ 委譲プロパティ ============")
+    val myclass = MyClass()
+    myclass.str = "abc"
+    println(myclass.str)
+
+    val userclass = User()
+    userclass.username = "itamura"
+
 
 }
 
